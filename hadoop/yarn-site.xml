@@ -32,8 +32,8 @@
                 <value>${yarn.nodemanager.hostname}:8041</value>
         </property>
         <property>
-                <name>yarn.scheduler.maximum-allocation-mb</name>
-                <value>2048</value>
+                <name>yarn.scheduler.minimum-allocation-mb</name>
+                <value>512</value>
         </property>
 	<property>
 		<name>yarn.scheduler.maximum-allocation-vcores</name>
@@ -41,7 +41,7 @@
 	</property>
 	<property>
 		<name>yarn.nodemanager.resource.memory-mb</name>
-		<value>2048</value>
+		<value>3072</value>
 	</property>
 	<property>
 		<name>yarn.app.mapreduce.am.resource.cpu-vcores</name>
